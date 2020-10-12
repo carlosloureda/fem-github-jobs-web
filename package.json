@@ -1,0 +1,14 @@
+{
+  "name": "github-jobs-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Carlos Loureda <carloslouredaparrado@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile:sass": "node-sass ./sass/main.scss ./css/style.css -w",
+    "build": "node-sass ./sass/main.scss ./css/style.css"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

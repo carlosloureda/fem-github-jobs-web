@@ -1,0 +1,25 @@
+.i {
+  height: 25px;
+  width: 25px;
+  display: block;
+  &-sun {
+    background: url(../../assets/desktop/icon-sun.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  &-moon {
+    background: url(../../assets/desktop/icon-moon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  &-filter {
+    background: url(../../assets/mobile/icon-filter.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  &-search {
+    background: url(../../assets/mobile/icon-search.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
