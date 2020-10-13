@@ -30,7 +30,10 @@
       </div>
       <div class="search-bar">
         <input type="text" name="" placeholder="Enter location ..." id="" />
-        <button class="search-bar__button search-bar__button-filter">
+        <button
+          class="search-bar__button search-bar__button-filter"
+          id="js-btn-filter"
+        >
           <i class="i i-filter"></i>
         </button>
         <button class="search-bar__button search-bar__button-search">
@@ -40,3 +43,28 @@
     </header>
   </body>
 </html>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+</div>
+
+<script>
+  const openModal = () => {
+    const modal = document.getElementById("myModal");
+    modal.style.display = "block";
+  };
+
+  const closeModal = () => {
+    const modal = document.getElementById("myModal");
+    modal.style.display = "none";
+  };
+
+  document.getElementById("js-btn-filter").addEventListener("click", () => {
+    openModal();
+  });
+</script>
